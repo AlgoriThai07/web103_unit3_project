@@ -55,3 +55,13 @@
     padding: 10px;
     text-align: center;
 }
+
+.event-information.passed-event {
+    border-color: #ff6b6b;
+    filter: grayscale(30%);
+    opacity: 0.85;
+}
+
+.event-information.passed-event .event-information-overlay {
+    background-color: rgba(220, 20, 60, 0.95);
+}
