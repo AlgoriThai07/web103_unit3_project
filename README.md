@@ -1,6 +1,6 @@
 # WEB103 Project 3 - World Cup 2026 Venue & Match Planner
 
-Submitted by: **Thai**
+Submitted by: **Viet Thai Nguyen**
 
 About this web app: **An interactive virtual community space for exploring stadiums and match schedules for the FIFA World Cup 2026. Users can click on host venues across North America to see matches scheduled there, view live countdowns to kickoff, filter all matches by stadium, and easily distinguish between upcoming and completed matches.**
 
@@ -64,8 +64,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required and optional features:
 
-*(Add your GIF file link here)*
-<!-- Example: <img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> -->
+<div>
+    <a href="https://www.loom.com/share/667874a778b84e8cb7348a5c8328b822">
+        <p>World Cup 2026 Venue App Walkthrough - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/667874a778b84e8cb7348a5c8328b822">
+        <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/667874a778b84e8cb7348a5c8328b822-db01b1f742becc7d-full-play.gif#t=0.1">
+    </a>
+</div>
 
 ---
 
