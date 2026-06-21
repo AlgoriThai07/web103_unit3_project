@@ -29,33 +29,36 @@
     margin: 0 auto;
 }
 
-.filter-btn {
-    padding: 10px 22px;
-    border: 2px solid white;
-    background: transparent;
+.filter-controls label {
+    font-size: 1.1em;
+    font-weight: 800;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.filter-controls select {
+    padding: 10px 15px;
+    font-size: 1.05em;
+    border: 2px solid var(--main-color);
+    border-radius: 8px;
+    background-color: rgb(3, 1, 64);
     color: white;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 0.95em;
-    font-weight: 800;
-    text-transform: uppercase;
-    border-radius: 25px;
+    font-weight: 700;
+    outline: none;
     cursor: pointer;
-    transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
-.filter-btn:hover {
-    background-color: var(--main-color);
-    border-color: var(--main-color);
-    transform: translateY(-2px);
-}
-
-.filter-btn.active {
-    background-color: var(--main-color);
-    border-color: var(--main-color);
-    color: white;
+.filter-controls select:focus {
+    border-color: white;
     box-shadow: 0 0 15px var(--main-color);
 }
+
 
 .events-grid {
     padding: 30px;

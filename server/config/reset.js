@@ -100,7 +100,7 @@ const seedLocations = async () => {
 const seedEvents = async () => {
     const events = [
         {
-            title: "Mexico vs. South Africa (Opening Match)",
+            title: "Mexico vs. South Africa",
             date: "Thursday, June 11, 2026",
             time: "19:00",
             image: "https://s.yimg.com/ny/api/res/1.2/yeImAHtr2DM4M.CMMWKBWA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MDtjZj13ZWJw/https://media.zenfs.com/en/bbc_us_articles_995/5d3fc8fbb02b9caf2f25a45617475f70",

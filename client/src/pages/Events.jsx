@@ -40,21 +40,19 @@ const Events = () => {
             <header className='events-page-header'>
                 <h2>World Cup 2026 Match Schedule</h2>
                 <div className='filter-controls'>
-                    <button
-                        className={`filter-btn ${selectedLocation === 'all' ? 'active' : ''}`}
-                        onClick={() => handleFilterChange('all')}
+                    <label htmlFor="location-select">Filter by Stadium:</label>
+                    <select 
+                        id="location-select" 
+                        value={selectedLocation} 
+                        onChange={(e) => handleFilterChange(e.target.value)}
                     >
-                        All Venues
-                    </button>
-                    {locations.map(loc => (
-                        <button
-                            key={loc.id}
-                            className={`filter-btn ${selectedLocation === loc.id ? 'active' : ''}`}
-                            onClick={() => handleFilterChange(loc.id)}
-                        >
-                            {loc.name} ({loc.city})
-                        </button>
-                    ))}
+                        <option value="all">All Venues</option>
+                        {locations.map(loc => (
+                            <option key={loc.id} value={loc.id}>
+                                {loc.name} ({loc.city})
+                            </option>
+                        ))}
+                    </select>
                 </div>
             </header>
 

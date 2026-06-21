@@ -53,6 +53,7 @@ const Event = (props) => {
             <div className='event-information-overlay'>
                 <div className='text'>
                     <h3>{event.title}</h3>
+                    <p className='stadium-name'><i className="fa-solid fa-location-dot"></i> {event.location_name}</p>
                     <p><i className="fa-regular fa-calendar fa-bounce"></i> {event.date} <br /> {time}</p>
                     <p id={`remaining-${event.id}`}>{remaining}</p>
                 </div>
